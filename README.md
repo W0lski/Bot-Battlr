@@ -12,13 +12,23 @@ Wol Protasio Dut Wol
 
 # PROJECT SETUP 
 Description
-The repository contains a React application that displays a list of your recent bank transactions. 
+The repository contains a React application that displays a list of bots you can use to custom build your own Bot Army. 
 
 # Core Features
 As a user, you are able to:
-1. See a table of the transactions.
-2. Fill out and submit a form to add a new transaction. 
-3. Filter transactions by typing into the search bar. 
+- See profiles of all bots rendered in `BotCollection`.
+- Add an individual bot to my army by clicking on it. The selected bot should
+  render in the `YourBotArmy` component. The bot can be enlisted only **once**.
+  The bot **does not** disappear from the `BotCollection`.
+- Release a bot from my army by clicking on it. The bot disappears from the
+  `YourBotArmy` component.
+- Discharge a bot from their service forever, by clicking the red button marked
+  "x", which would delete the bot both from the backend and from the
+  `YourBotArmy` on the frontend.
+  - Sort bots by their health, damage or armor.
+  - When you enlist a bot it will be removed from the `BotCollection` and added
+  to `YourBotArmy`.
+- Filter bots by their class. You can select a few filters at the same time.
 
 # Technologies used
 React JS
