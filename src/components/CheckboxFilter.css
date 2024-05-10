@@ -1,0 +1,9 @@
+#container{
+    height:30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: large;
+    justify-content: baseline;
+    text-align:inherit;
+}
